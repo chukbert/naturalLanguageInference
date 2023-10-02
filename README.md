@@ -11,7 +11,7 @@
 8. [References](#references)
 
 ## Introduction
-Welcome to the "Natural Language Inference for Bahasa Indonesia" project! This project focuses on a Natural Language Processing (NLP) task known as Natural Language Inference (NLI) specifically designed for the Bahasa Indonesia language. NLI involves determining the relationship between pairs of sentences, typically categorized as entailment, contradiction, or neutral. In this project, we leverage the IndoNLI Dataset, which is a valuable resource for NLI tasks in Bahasa Indonesia. The result notebook [`NLIIndonesia.ipynb`]().
+Welcome to the "Natural Language Inference for Bahasa Indonesia" project! This project focuses on a Natural Language Processing (NLP) task known as Natural Language Inference (NLI) specifically designed for the Bahasa Indonesia language. NLI involves determining the relationship between pairs of sentences, typically categorized as entailment, contradiction, or neutral. In this project, we leverage the IndoNLI Dataset, which is a valuable resource for NLI tasks in Bahasa Indonesia. The result notebook [`NLIIndonesia.ipynb`](https://github.com/chukbert/naturalLanguageInference/blob/master/NLIIndonesia.ipynb).
 
 ## Dataset
 The dataset used for this project is the IndoNLI Dataset, which can be downloaded from [this link](https://github.com/ir-nlp-csui/indonli). It consists of over 18,000 sentence pairs, with more than 12,000 pairs for training and 5,000 pairs for testing. Each sentence pair is labeled with its corresponding relationship (entailment, contradiction, or neutral), making it suitable for NLI model training and evaluation.
@@ -24,7 +24,7 @@ For word embeddings, we utilize pretrained word embeddings from fastText specifi
 
 ## Training Results
 After training the Decomposable Attention Model on the IndoNLI Dataset, we obtained the following results:
-![alt text](img\output.svg "result")
+![alt text](https://github.com/chukbert/naturalLanguageInference/blob/master/img/output.svg "result")
 - Training Loss: 0.367
 - Training Accuracy: 0.833
 - Test Accuracy: 0.449
