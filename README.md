@@ -1,5 +1,8 @@
 # Natural Language Inference for Bahasa Indonesia Using pytorch
 
+TL;DR :
++ Demo : [streamlit](https://indonli.streamlit.app/)
++ Result : [`NLIIndonesia.ipynb`](https://github.com/chukbert/naturalLanguageInference/blob/master/NLIIndonesia.ipynb)
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Dataset](#dataset)
@@ -25,9 +28,9 @@ For word embeddings, we utilize pretrained word embeddings from fastText specifi
 ## Training Results
 After training the Decomposable Attention Model on the IndoNLI Dataset, we obtained the following results:
 ![alt text](https://github.com/chukbert/naturalLanguageInference/blob/master/img/output.svg "result")
-- Training Loss: 0.367
-- Training Accuracy: 0.833
-- Test Accuracy: 0.449
+- Training Loss: 0.368
+- Training Accuracy: 0.832
+- Test Accuracy: 0.441
 
 It's important to note that these results, while a valuable step forward, are relatively lower compared to models trained on much larger English NLI datasets. This discrepancy is expected, given the significant difference in dataset size, with English NLI datasets often exceeding 550,000 labeled sentence pairs. Nonetheless, this project represents a crucial milestone in advancing NLP for Bahasa Indonesia, as NLI applications are diverse and demand extensive research in this field.
 
