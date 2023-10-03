@@ -1,4 +1,4 @@
-# Natural Language Inference for Bahasa Indonesia
+# Natural Language Inference for Bahasa Indonesia Using pytorch
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -17,7 +17,7 @@ Welcome to the "Natural Language Inference for Bahasa Indonesia" project! This p
 The dataset used for this project is the IndoNLI Dataset, which can be downloaded from [this link](https://github.com/ir-nlp-csui/indonli). It consists of over 18,000 sentence pairs, with more than 12,000 pairs for training and 5,000 pairs for testing. Each sentence pair is labeled with its corresponding relationship (entailment, contradiction, or neutral), making it suitable for NLI model training and evaluation.
 
 ## Model
-We employ the "Decomposable Attention Model," which was originally introduced by Parikh et al. (2016) for NLI tasks. This model consists of three main stages: attending, comparing, and aggregating. It has proven effective in capturing complex relationships between sentence pairs, making it a suitable choice for our Bahasa Indonesia NLI task. You can find the original paper detailing this model [here](https://paperswithcode.com/paper/a-decomposable-attention-model-for-natural).
+We employ the "Decomposable Attention Model," which was originally introduced by [Parikh et al. (2016)](https://paperswithcode.com/paper/a-decomposable-attention-model-for-natural) for NLI tasks. This model consists of three main stages: attending, comparing, and aggregating implemented using **pytorch** from scratch. It has proven effective in capturing complex relationships between sentence pairs, making it a suitable choice for our Bahasa Indonesia NLI task. You can find the original paper detailing this model [here](https://paperswithcode.com/paper/a-decomposable-attention-model-for-natural).
 
 ## Word Embeddings
 For word embeddings, we utilize pretrained word embeddings from fastText specifically trained for the Bahasa Indonesia language. You can download these embeddings from the [fastText website](https://fasttext.cc/docs/en/crawl-vectors.html). Pretrained embeddings help our model understand the semantics and contextual information of Bahasa Indonesia words, enhancing its performance. Download pretrained vector embeddings and place it in the `pretrained` directory.
