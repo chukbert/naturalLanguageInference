@@ -3,15 +3,6 @@
 TL;DR :
 + Demo : [streamlit](https://indonli.streamlit.app/)
 + Result : [`NLIIndonesia.ipynb`](https://github.com/chukbert/naturalLanguageInference/blob/master/NLIIndonesia.ipynb)
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Dataset](#dataset)
-3. [Model](#model)
-4. [Word Embeddings](#word-embeddings)
-5. [Training Results](#training-results)
-6. [Usage](#usage)
-7. [Challenges and Future Work](#challenges-and-future-work)
-8. [References](#references)
 
 ## Introduction
 Welcome to the "Natural Language Inference for Bahasa Indonesia" project! This project focuses on a Natural Language Processing (NLP) task known as Natural Language Inference (NLI) specifically designed for the Bahasa Indonesia language. NLI involves determining the relationship between pairs of sentences, typically categorized as entailment, contradiction, or neutral. In this project, we leverage the IndoNLI Dataset, which is a valuable resource for NLI tasks in Bahasa Indonesia. The result notebook [`NLIIndonesia.ipynb`](https://github.com/chukbert/naturalLanguageInference/blob/master/NLIIndonesia.ipynb).
